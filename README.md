@@ -5,7 +5,7 @@
 source venv/Scripts/activate
 ```
 
-** Install all packages **
+**Install all packages**
 
 ```
 pip install -r requirements.txt
@@ -38,4 +38,4 @@ In the fronternd directory, run ```npm run start``` in the frontend directory.
 
 **Seed the backend with data**
 Ensure the virtual environment is activated.
-```python -m backend.app```
+```export SEED_DATA=True && python -m backend.app```
